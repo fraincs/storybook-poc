@@ -1,0 +1,24 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import Input from "../src/Input";
+
+<Meta title="Input" component={Input} />
+
+# Input
+
+Let's define a story for our `Input` component:
+
+<Story name="text">
+  <Input type="text" />
+</Story>
+
+`Input` can have a number type
+
+<Story name="number">
+  <Input type="number" />
+</Story>
+
+`Input` can be disabled
+
+<Story name="disabled">
+  <Input type="number" disabled />
+</Story>
